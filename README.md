@@ -26,3 +26,13 @@ App creata con xcode e SwiftUI
 > **Note** Adesso potremmo scaricare l'app su ogni dispositivo compatibile
 
 ---
+
+- Schermata di visualizzazione utenti
+
+<img width="323" alt="Schermata 2022-10-20 alle 12 31 35" src="https://user-images.githubusercontent.com/112284065/196925922-810945f6-82e0-45c4-be9e-89428b39afd9.png">
+
+---
+
+- Schermata di aggiunta utenti
+
+<img width="323" alt="Schermata 2022-10-20 alle 12 31 39" src="https://user-images.githubusercontent.com/112284065/196925750-4617947a-b8f7-4cea-8847-08a099ebf027.png">
