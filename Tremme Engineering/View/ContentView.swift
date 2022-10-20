@@ -6,16 +6,20 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 struct ContentView: View {
+    
+    @ObservedObject var model = ViewModel()
+    
+    @State var nome = ""
+    @State var cognome = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+        
+        HomeView()
+        
     }
 }
 
@@ -24,3 +28,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

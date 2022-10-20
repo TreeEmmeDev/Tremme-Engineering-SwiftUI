@@ -6,11 +6,19 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct Tremme_EngineeringApp: App {
+    
+    init() {
+        
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
+            
             ContentView()
         }
     }
